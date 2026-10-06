@@ -1,0 +1,80 @@
+/* Page background and general typography */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Center container at 80% width */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Logo image styling */
+.logo {
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+/* Form row layout */
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    width: 110px;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 1.1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 220px;
+    padding: 3px 5px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Submit button styling */
+#submitBtn {
+    margin-top: 15px;
+    padding: 6px 18px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #008000; /* Green text */
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Display output message box */
+#messageBox {
+    margin-top: 25px;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
